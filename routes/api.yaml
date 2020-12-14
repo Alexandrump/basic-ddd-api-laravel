@@ -1,0 +1,8 @@
+group:
+  domain: '%api_domain%'
+  prefix: v1
+  namespace: App\Http\Controllers\Api
+  paths:
+    "ping":
+      get:
+        uses: PingController@ping
